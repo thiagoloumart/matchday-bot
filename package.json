@@ -1,0 +1,20 @@
+{
+  "name": "matchday-bot",
+  "version": "1.0.0",
+  "description": "Your football team in a WhatsApp group: live goals, results, table and daily news. PT/EN.",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "setup": "node tools/setup.js",
+    "demo": "node src/format.js --demo",
+    "once": "node src/index.js --once",
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7"
+  }
+}

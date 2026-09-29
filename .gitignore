@@ -1,0 +1,7 @@
+node_modules/
+data/
+logs/
+site/
+.env
+.env.bak-*
+*.bak
